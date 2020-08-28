@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SurfGrind</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <script src="https://wa.cdn-surfline.com/quiver/0.12.5/scripts/jwplayer.js"></script>
+ 	<script>
+ 		document.addEventListener("DOMContentLoaded", function() {
+      const player1 = jwplayer('player1').setup({
+        file: 'https://cams.cdn-surfline.com/cdn-wc/wc-mondos/playlist.m3u8',
+        autostart: true,
+				width: "100%",
+      });
+      const player2 = jwplayer('player2').setup({
+        file: 'https://cams.cdn-surfline.com/cdn-wc/wc-leadbetter/playlist.m3u8',
+        autostart: true,
+				width: "100%",
+      });
+      const player3 = jwplayer('player3').setup({
+        file: 'https://cams.cdn-surfline.com/cdn-wc/wc-campuspt/playlist.m3u8',
+        autostart: true,
+				width: "100%",
+      });
+      const player4 = jwplayer('player4').setup({
+        file: 'https://cams.cdn-surfline.com/cdn-wc/wc-cstreet/playlist.m3u8',
+        autostart: true,
+				width: "100%",
+      });
+      const player5 = jwplayer('player5').setup({
+        file: 'https://cams.cdn-surfline.com/cdn-wc/wc-cstreetov/playlist.m3u8',
+        autostart: true,
+				width: "100%",
+      });
+      const player6 = jwplayer('player6').setup({
+        file: 'https://cams.cdn-surfline.com/cdn-wc/wc-cstreetclose/playlist.m3u8',
+        autostart: true,
+				width: "100%",
+      });
+      const player7 = jwplayer('player7').setup({
+        file: 'https://cams.cdn-surfline.com/cdn-wc/wc-venturapointov/playlist.m3u8',
+        autostart: true,
+				width: "100%",
+      });
+      const player8 = jwplayer('player8').setup({
+        file: 'https://cams.cdn-surfline.com/cdn-wc/wc-carpinteria/playlist.m3u8',
+        autostart: true,
+				width: "100%",
+      });
+      const player9 = jwplayer('player9').setup({
+        file: 'https://cams.cdn-surfline.com/cdn-wc/wc-jalama/playlist.m3u8',
+        autostart: true,
+				width: "100%",
+      });
+      const player10 = jwplayer('player10').setup({
+        file: 'https://cams.cdn-surfline.com/cdn-wc/wc-sandspit/playlist.m3u8',
+        autostart: true,
+				width: "100%",
+      });
+   });
+  
+    </script>
+  </head>
+  <body>
+  <section class="section">
+    <div class="is-fullwidth mx-1">
+      <h1 class="title">
+        SurfGrind Premium™
+      </h1>
+			<div class="tile is-ancestor">
+				<div class="tile is-parent">
+					<article class="tile is-child box">
+						<p class="subtitle">Mondos</p>
+						<div id="player1"></div>
+					</article>
+				</div>
+				<div class="tile is-parent">
+					<article class="tile is-child box">
+						<p class="subtitle">Leadbetter Pt.</p>
+						<div id="player2"></div>
+					</article>
+				</div>
+				<div class="tile is-parent">
+					<article class="tile is-child box">
+						<p class="subtitle">Campus Pt.</p>
+						<div id="player3"></div>
+					</article>
+				</div>
+			</div>
+			<div class="tile is-ancestor">
+				<div class="tile is-parent">
+					<article class="tile is-child box">
+						<p class="subtitle">C St.</p>
+						<div id="player4"></div>
+					</article>
+				</div>
+				<div class="tile is-parent">
+					<article class="tile is-child box">
+						<p class="subtitle">C St. Overview</p>
+						<div id="player5"></div>
+					</article>
+				</div>
+				<div class="tile is-parent">
+					<article class="tile is-child box">
+						<p class="subtitle">C St. Close</p>
+						<div id="player6"></div>
+					</article>
+				</div>
+			</div>
+			<div class="tile is-ancestor">
+				<div class="tile is-parent">
+					<article class="tile is-child box">
+						<p class="subtitle">Ventura Pt. Overview</p>
+						<div id="player7"></div>
+					</article>
+				</div>
+				<div class="tile is-parent">
+					<article class="tile is-child box">
+						<p class="subtitle">Carp. State Beach</p>
+						<div id="player8"></div>
+					</article>
+				</div>
+				<div class="tile is-parent">
+					<article class="tile is-child box">
+						<p class="subtitle">Jalama</p>
+						<div id="player9"></div>
+					</article>
+				</div>
+			</div>
+			<div class="tile is-ancestor">
+				<div class="tile is-parent">
+					<article class="tile is-child box">
+						<p class="subtitle">Sandspit</p>
+						<div id="player10"></div>
+					</article>
+				</div>
+				<div class="tile is-parent">
+					<article class="tile is-child box">
+						<figure class="image is-4by3">
+							<img src="https://www.peacefrogs.com/images/uploads/21989_lrg.jpg">
+						</figure>
+					</article>
+				</div>
+				<div class="tile is-parent">
+					<article class="tile is-child box">
+						<figure class="image is-4by3">
+							<img src="https://www.kindpng.com/picc/b/574/5741276.png">
+						</figure>
+					</article>
+				</div>
+			</div>
+    </div>
+  </section>
+  </body>
+</html>
